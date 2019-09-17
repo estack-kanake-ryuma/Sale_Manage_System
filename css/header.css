@@ -1,0 +1,79 @@
+/*********************************************************
+* 
+* HEADER
+*
+*********************************************************/
+#header {
+	border-bottom:5px solid #B44769;	
+}
+
+#logo
+{
+	margin-top: 10px;
+	text-decoration: none;
+	margin-bottom:10px;
+}
+#gnavi_blk {
+	height:56px;
+}
+
+#gnavi_p_blk {
+	height:27px;
+	background-color:#FBF7EE;
+	
+}
+
+#gnavi_c_blk {
+	height:29px;
+	background-color:#C1937F;
+
+}
+
+#gnavi
+{
+	display: block;
+	clear: both;
+}
+#gnavi li
+{
+	display: block;
+	float: left;
+	width: 140px;
+	height: 27px;
+}
+
+#gnavi li img {
+	vertical-align:bottom;
+}
+
+
+#lnavi_master {
+	height:50%;
+	width:100%;
+	padding-top:7px;
+	padding-bottom:7px;
+
+}
+
+#lnavi_master table.lnavi_tbl {
+	height:50%;
+}
+
+#lnavi_master table.lnavi_tbl td {
+	color:#FFF;
+	border-right:1px solid #FFF;
+	padding-right:15px;
+	padding-left:6px;
+	font-size:0.9em;
+	vertical-align:middle;
+}
+
+#lnavi_master table.lnavi_tbl td a {
+	color:#FFF;
+	text-decoration:underline;
+
+}
+
+#lnavi_master table.lnavi_tbl td a:hover {
+	color:#F4C888;
+}

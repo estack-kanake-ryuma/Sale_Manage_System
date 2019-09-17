@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/views/top.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/views/common/login_master.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/views/bill/sales_sum_print.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/models/other/before_input_mdl.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/config/routes.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/controllers/mainte/depart_list.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/index.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/models/db/m_customer_mdl.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/views/common/master.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/config/hooks.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/models/db/general_name_mdl.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/controllers/other/import_detail_other.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/models/db/menu_mng_mdl.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/index.html</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/models/db/user_mdl.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/views/common/other.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/controllers/other/before_input_other.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/controllers/top.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/views/admin/make_data.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/models/index.html</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/views/common/error_common.php</file>
+            <file>file:/C:/YYworkspace/skk関係/SKK20190408/SKK_APP_20190408/application/models/top_mdl.php</file>
+        </group>
+    </open-files>
+</project-private>

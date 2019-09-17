@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|robots\.txt|css|js|favicon\.ico|output|phpinfo\.php)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+php_flag short_open_tag on

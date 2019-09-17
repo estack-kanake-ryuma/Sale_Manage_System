@@ -1,0 +1,700 @@
+@import url("/css/common.css");
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+/*********************************************************
+* 
+* CONTENTS
+*
+*********************************************************/
+#contents {
+	padding-top: 16px;
+	clear: both;
+	display: block;
+}
+
+/*
+* BASIC_TBL
+*/
+#contents table.basic_tbl tr:nth-child(odd) {
+	background-color: #FBF7EE;
+}
+
+#contents table.basic_tbl td span {
+	padding-right: 4px;
+}
+
+#contents table.transfer_del_tbl th.basic_no,
+#contents table.transfer_del_tbl td.basic_no,
+#contents table.credit_tbl th.basic_no,
+#contents table.credit_tbl td.basic_no,
+#contents table.sales_tbl th.basic_no,
+#contents table.sales_tbl td.basic_no,
+#contents table.basic_tbl th.basic_no,
+#contents table.basic_tbl td.basic_no {
+	padding: 0;
+	text-align: center;
+	width: 25px;
+}
+
+#contents table.transfer_del_tbl th.chk_row,
+#contents table.transfer_del_tbl td.chk_row,
+#contents table.credit_tbl th.chk_row,
+#contents table.credit_tbl td.chk_row,
+#contents table.sales_tbl th.chk_row,
+#contents table.sales_tbl td.chk_row,
+#contents table.basic_tbl th.chk_row,
+#contents table.basic_tbl td.chk_row {
+	padding: 0;
+	text-align: center;
+	width: 22px;
+}
+
+#contents table.credit_tbl th.chk_row input,
+#contents table.credit_tbl td.chk_row input,
+#contents table.sales_tbl th.chk_row input,
+#contents table.sales_tbl td.chk_row input,
+#contents table.basic_tbl th.chk_row input,
+#contents table.basic_tbl td.chk_row input {
+	margin: 0;
+}
+
+#contents table.basic_tbl th.basic_memo,
+#contents table.basic_tbl td.basic_memo,
+#contents table.sales_tbl th.basic_memo,
+#contents table.sales_tbl td.basic_memo {
+	padding: 0;
+	text-align: center;
+	width: 45px;
+}
+
+#contents table.sales_tbl th.date_style,
+#contents table.sales_tbl td.date_style {
+	padding: 0;
+	text-align: center;
+	width: 70px;
+}
+
+#contents table.basic_tbl th.btn_th,
+#contents table.basic_tbl td.btn_td {
+	padding: 0;
+	text-align: center;
+	width: 50px;
+
+}
+
+#contents table.basic_tbl th.btn_th input,
+#contents table.basic_tbl td.btn_td input {
+	margin: 0;
+}
+
+#contents table.basic_tbl td.top_button {
+	border: 0;
+	text-align: right;
+	height: 60px;
+	vertical-align: middle;
+	padding: 0;
+}
+
+#contents td.bottom_button,
+#contents table.basic_tbl td.bottom_button {
+	border: 0;
+	text-align: center;
+	height: 80px;
+	vertical-align: middle;
+	padding: 0;
+	background-color: #FFF;
+
+}
+
+#contents table.basic_tbl th,
+#contents table.basic_tbl td {
+	border: 1px solid #C0C0C0;
+	padding-left: 7px;
+	height: 45px;
+}
+
+#contents table.basic_tbl th {
+	background-color: #D9D9D9;
+	text-align: left;
+}
+
+#contents table.credit_tbl th {
+	background-color: #D9D9D9;
+	text-align: left;
+	padding-left: 4px;
+	height: 45px;
+}
+
+#contents
+table.basic_tbl th.button, table.basic_tbl td.button {
+	padding: 0;
+	text-align: center;
+	width: 120px;
+}
+
+#contents
+table.basic_tbl td.add_button {
+	border: 0;
+	text-align: right;
+	padding: 0;
+}
+
+table.basic_tbl td.add_button input[type="button"] {
+	width: 100px;
+	height: 30px;
+	margin: 0;
+	margin-left: 15px;
+}
+
+td.no_list {
+
+	height: 150px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#contents table.contents_title {
+	margin-bottom: 10px;
+}
+
+#contents table.contents_title td.page_title {
+	width: 400px;
+}
+
+#contents table.contents_title td.proc_info {
+	text-align: right;
+	width: 500px;
+	vertical-align: bottom;
+}
+
+#contents table.contents_title td.proc_info span.msg {
+	font-size: 1.25em;
+	color: #22408F;
+	font-weight: bold;
+}
+
+#contents div.contents_title h2, #contents table.contents_title h2 {
+	color: #999;
+	font-size: 2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 100px;
+}
+
+#contents div.contents_blk {
+	margin-bottom: 20px;
+}
+
+#contents div.contents_blk table.caption_tbl {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#contents div.contents_blk table.caption_tbl td {
+	height: 34px;
+	background-color: #D3ECF8;
+	/*	width:970px; */
+	width: 1000px;
+	padding-left: 10px;
+	font-size: 1.15em;
+}
+
+/*
+ ************************************************************************
+ * TOPページスタイル
+ ************************************************************************
+ */
+#contents div.contents_blk div.top_left {
+	float: left;
+	width: 500px;
+	border: 1px solid #C0C0C0;
+}
+
+#contents div.contents_blk div.top_left h3.caption,
+#contents div.contents_blk div.top_right h3.caption
+{
+	padding: 5px 0 5px 7px;
+	border-width: 0px 0px 2px 10px;
+	border-style: solid;
+	border-color: #000;
+	line-height: 100%;
+	width: 460px;
+	margin: 10px;
+
+}
+#contents div.contents_blk div.top_right h3.caption {
+	width: 90%;
+}
+#contents div.contents_blk .receive_info,
+#contents div.contents_blk .send_info
+{
+	width: 90%;
+}
+#contents div.contents_blk .receive_info td,
+#contents div.contents_blk .send_info td
+{
+	text-align: right;
+	padding-right: 0.3em;
+}
+#contents div.contents_blk table.depart_tbl {
+	margin: 10px;
+}
+#contents div.contents_blk table.receive_info {
+	margin-bottom: 30px;
+}
+#contents div.contents_blk table.daily_tbl + .space {
+	margin-bottom: 20px;
+}
+#contents div.contents_blk table.daily_tbl th,
+#contents div.contents_blk table.depart_tbl th {
+	background-color: #D9D9D9;
+}
+
+#contents div.contents_blk table.daily_tbl td,
+#contents div.contents_blk table.daily_tbl th,
+#contents div.contents_blk table.depart_tbl td,
+#contents div.contents_blk table.depart_tbl th {
+	border: 1px solid #C0C0C0;
+	padding-left: 7px;
+	height: 30px;
+}
+
+#contents div.contents_blk div.top_right {
+	float: right;
+	width: 470px;
+}
+
+#contents div.contents_blk table.top_caption_tbl {
+	width: 100%;
+}
+
+#contents div.contents_blk table.top_caption_tbl td {
+	padding-left: 4px;
+}
+
+#contents div.contents_blk table.top_caption_tbl td.title {
+
+	height: 30px;
+	background-color: #D3ECF8;
+	border-bottom: 1px solid #C0C0C0;
+	width: 100%;
+	padding-left: 10px;
+
+}
+
+/*
+* SEARCH_TBL
+*/
+#contents table.search_tbl {
+	margin-top: 10px;
+	/*	width:970px; */
+	width: 1000px;
+	background-color: #E2EEE0;
+}
+
+#contents table.search_tbl td {
+	height: 40px;
+}
+
+#contents table.search_tbl td.disp_btn {
+	width: 200px;
+}
+
+#contents table.search_tbl td.disp_btn table {
+	width: 100%;
+	text-align: center;
+}
+
+/*
+* MST_INPUT_TBL
+*/
+#contents table.publish_tbl,
+#contents table.mst_input_tbl {
+
+	margin-top: 10px;
+	width: 930px;
+	background-color: #F8F8F8;
+
+}
+
+#contents table.mst_input_tbl td {
+	padding: 4px;
+	height: 35px;
+}
+
+#contents table.mst_input_tbl td.title,
+#contents table.publish_tbl td.title {
+	background-color: #D3ECF8;
+	height: 33px;
+	padding-left: 7px;
+	font-weight: bold;
+}
+
+#contents table.mst_input_tbl td.item, #contents table.search_tbl td.item, #contents table.publish_tbl td.item {
+	width: 100px;
+	text-align:right;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+/*
+ ************************************************************************
+ * 一覧のページ情報記入枠
+ ************************************************************************
+ */
+#contents div.other {
+	overflow: auto;
+	margin-bottom: 3px;
+	width: 100%;
+}
+
+#contents div.other div.list_cnt {
+	float: left;
+}
+
+#contents div.other div.list_cnt span.sort_info {
+	font-weight: bold;
+	color: #004959;
+}
+
+#contents div.other ul.page_link {
+	float: right;
+}
+
+#contents div.other ul.page_link li {
+	float: left;
+	padding-right: 8px;
+}
+
+/*
+ ************************************************************************
+ * 目標設定画面のテーブル
+ ************************************************************************
+ */
+#contents table.mark_tbl_c th {
+	background-color: #D9D9D9;
+	height: 45px;
+}
+
+#contents table.mark_tbl_c td {
+	padding-left: 7px;
+	height: 45px;
+}
+
+#contents table.mark_tbl_c td.total {
+	background-color: #FAF6F7;
+}
+
+#contents table.mark_tbl_c th,
+#contents table.mark_tbl_c td {
+	border: 1px solid #C0C0C0;
+}
+
+/*
+ ************************************************************************
+ * 入金登録入力画面のテーブル
+ ************************************************************************
+ */
+#contents table.credit_tbl th {
+	background-color: #D9D9D9;
+	height: 35px;
+}
+
+#contents table.credit_tbl td {
+	padding-left: 7px;
+	height: 35px;
+}
+
+#contents table.credit_tbl th,
+#contents table.credit_tbl td {
+	border: 1px solid #C0C0C0;
+}
+
+/*
+************************************************************************
+* 振込消込のテーブル
+************************************************************************
+*/
+#contents table.transfer_del_tbl th.title {
+	background-color: #D9D9D9;
+	height: 40px;
+	text-align: left;
+	padding-left: 4px;
+}
+
+#contents table.transfer_del_tbl th.title_p {
+	background-color: #D9D9D9;
+	height: 40px;
+	text-align: center;
+	padding: 0px;
+}
+
+#contents table.transfer_del_tbl td {
+	padding: 0;
+	height: 60px;
+}
+
+#contents table.transfer_del_tbl td.sep_row {
+	border: 0;
+	border-top: 3px double rgb(0, 0, 0);
+	height: 0px
+}
+
+#contents table.transfer_del_tbl td.last {
+	border-right: 0;
+}
+
+#contents table.transfer_del_tbl td.inner_td {
+	padding: 0;
+}
+
+#contents table.transfer_del_tbl span {
+	padding-left: 4px;
+}
+
+#contents table.transfer_del_tbl td.data_right span {
+	padding-right: 4px;
+}
+
+#contents table.transfer_del_tbl th,
+#contents table.transfer_del_tbl td {
+	border: 1px solid #C0C0C0;
+}
+
+#contents table.transfer_del_tbl table.inner {
+	width: 100%;
+	height: 100%;
+}
+
+#contents table.transfer_del_tbl table.inner th,
+#contents table.transfer_del_tbl table.inner td {
+	border: 0;
+	height: 25px;
+}
+
+#contents table.transfer_del_tbl table.inner td.under_line {
+	border-bottom: 1px dotted #C0C0C0;
+}
+
+#contents div.sep_line {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #C0C0C0;
+}
+
+/*
+************************************************************************
+* 条件設定のテーブル
+************************************************************************
+*/
+#contents table.setup_tbl {
+
+}
+
+#contents table.setup_tbl th,
+#contents table.setup_tbl td {
+	border: 1px solid #C0C0C0;
+	padding-left: 7px;
+	height: 40px;
+}
+
+#contents table.setup_tbl th {
+	background-color: #D9D9D9;
+	text-align: left;
+}
+
+/*
+************************************************************************
+* 売上情報入力画面のスタイル
+************************************************************************
+*/
+
+#contents table.sales_tbl th,
+#contents table.sales_tbl td {
+	border: 1px solid #C0C0C0;
+	padding-left: 7px;
+	height: 35px;
+}
+
+#contents table.sales_tbl th {
+	background-color: #D9D9D9;
+	text-align: left;
+}
+
+#contents table.sales_tbl td.add_button {
+	border: 0;
+	text-align: center;
+}
+
+/* 得意先情報表示用 */
+#contents #exist_customer_tbl,
+#contents #new_customer_tbl {
+	margin-left: 50px;
+	width: 450px;
+	height: 90px;
+}
+
+#contents #sep_depart_warn_tbl td,
+#contents #sep_month_warn_tbl td,
+#contents #exist_customer_tbl td,
+#contents #new_customer_tbl td {
+	border: 2px solid #C1937F;
+	padding-left: 7px;
+	padding-top: 10px;
+	background-color: #FBF7EE;
+	vertical-align: top;
+}
+
+#contents #exist_customer_tbl td span,
+#contents #new_customer_tbl td span {
+	font-weight: bold;
+	color: #22408F;
+	padding-left: 10px;
+}
+
+#contents #exist_customer_tbl table.inner td {
+	border: 0;
+	padding: 0;
+}
+
+#contents table.sales_tbl .report_no_cell p:first-child {
+	margin: 3px 0;
+}
+#contents table.sales_tbl .report_no_cell p:last-child {
+	margin-bottom: 3px;
+}
+#contents table.sales_tbl .unit_memo_cell {
+	width: 100%;
+	heigth: 40px;
+}
+#contents table.sales_tbl .unit_memo_cell textarea {
+	width:99%;
+	height:35px;
+}
+
+/* 売上分割の設定テーブル */
+#input_sep_money_tbl td,
+#set_sep_money_tbl td {
+	height: 40px;
+}
+
+#set_sep_money_tbl set_sep_money_tbl {
+
+}
+
+#input_sep_money_tbl table.inp_sep_money_c_tbl th,
+#set_sep_money_tbl table.disp_info_tbl th {
+	background-color: #D9D9D9;
+}
+
+#set_sep_money_tbl table.disp_info_tbl th,
+#set_sep_money_tbl table.disp_info_tbl td {
+	border: 1px solid #C0C0C0;
+	padding-left: 7px;
+	height: 40px;
+}
+
+#input_sep_money_tbl table.inp_sep_money_c_tbl th,
+#input_sep_money_tbl table.inp_sep_money_c_tbl td {
+	border: 1px solid #C0C0C0;
+	padding-left: 7px;
+	height: 30px;
+
+}
+
+/* ToolTip(噴出しメッセージ用) */
+#text {
+	margin: 50px auto;
+	width: 500px
+}
+
+#tt {
+	position: absolute;
+	display: block;
+}
+
+#tttop {
+	display: block;
+	height: 5px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+
+#ttcont {
+	display: block;
+	padding: 2px 12px 3px 7px;
+	margin-left: 5px;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	color: #000000;
+	width: auto;
+}
+
+#ttbot {
+	display: block;
+	height: 5px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+
+/* ここまで */
+
+/* ツールチップ用テーブル */
+table.tooltip_t {
+	border-collapse: collapse;
+	font-size: 10px;
+}
+
+.tooltip_t th {
+	border: 1px solid #868683;
+	background-color: #CAEAFB;
+	padding: 2px;
+}
+
+.tooltip_t td {
+	border: 1px solid #868683;
+	padding-left: 2px;
+	text-align: left;
+}
+
+.tooltip_t td.data_right {
+	border: 1px solid #868683;
+	padding-right: 4px;
+	text-align: right;
+
+}
+
+.selector01 {
+	border-left: 7px solid #C0C0C0;
+	padding: 2px 5px;
+}
+
+.selector01_blue {
+	border-left: 7px solid #0000FF;
+	padding: 2px 5px;
+	margin-bottom: 10px;
+	color: #2F2E33;
+}
+
+.selector01_red {
+	border-left: 7px solid #FF0000;
+	padding: 2px 5px;
+	margin-bottom: 10px;
+	color: #2F2E33;
+}
+
+div.message_block {
+	background-color: #FFFFE0;
+	padding: 10px 0 10px 10px;
+	border: 1px solid #E6DB55;
+}
+
+div.message_block .warning {
+	color: #FF0033;
+}
+
+#contents a.no_bill {
+	color: #CCC;
+}

@@ -1,0 +1,71 @@
+@import url("/css/header.css");
+@import url("/css/footer.css");
+@import url("/css/common.css");
+/*********************************************************
+* 
+* LOGIN
+*
+*********************************************************/
+#contents
+{
+	padding-top: 16px;
+	clear: both;
+	display: block;
+}
+
+#login_blk
+{
+    width: 655px;
+    border: 1px solid #888888;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#login_title_blk
+{
+    width: 100%;
+    height:50px;
+    background-color: #8FC275;    
+}
+
+#login_title_blk span
+{
+    color: #FFFFFF;
+    font-size: 1.75em;
+    line-height: 200%;
+    padding-left: 10px;
+}
+#login_contents
+{
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login_contents table
+{
+    margin-top: 20px;
+    width: 100%
+}
+
+#login_contents table th.title 
+{
+    height: 60px;
+    background-color: #FBF7EE;
+    border: 1px solid #333333;
+    width: 150px;
+}
+
+#login_contents table td.data 
+{
+    border: 1px solid #333333;
+    width:300px;
+    padding-left: 10px;
+}
+
+#login_contents table td.login_btn
+{
+    text-align: center;
+    height: 120px;
+}

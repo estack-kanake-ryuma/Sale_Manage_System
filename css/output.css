@@ -1,0 +1,49 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size : 100%;
+        list-style-type: none;
+}
+body {
+        font-size: 16px;
+}
+table {
+        border-collapse: collapse;
+}
+div.clear {
+        clear: both;
+}
+
+#block {
+        margin: 0 auto;
+        width: 800px;
+        height: 1060px;
+}
+
+table.config_tbl {
+    
+}
+
+table.list_tbl th,
+table.list_tbl td,
+table.config_tbl th,
+table.config_tbl td {
+    border: 1px solid #000;
+}
+
+table.list_tbl th,
+table.config_tbl th {
+    text-align: center;
+    background-color: #D9D9D9;
+}
+
+table.list_tbl td,
+table.config_tbl td {
+    padding-left: 4px;
+}
+
+table.list_tbl {
+    font-size: 13px;
+}

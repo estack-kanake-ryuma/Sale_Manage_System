@@ -1,0 +1,220 @@
+/*********************************************************
+* 
+* COMMON
+*
+*********************************************************/
+* {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: normal;
+	list-style-type: none;
+}
+
+html {
+	height: 100%;
+	overflow: scroll;
+}
+
+body {
+	font-family: "ＭＳ Ｐゴシック","Osaka",Arial,sans-serif;
+	font-size: 13px;
+	line-height: 130%;
+}
+
+body,
+a.jump {
+	color: #333333;
+}
+
+a.jump:hover {
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	color: #45B0E5;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: none
+}
+
+a:hover, a:active {
+	outline: 0
+}
+
+p.clear,
+div.clear {
+	clear: both;
+}
+
+.red {
+    color: #FF0033;
+}
+.blue {
+    color: #0000FF;
+}
+
+.error {
+    color: #FF0033;
+    font-size: 0.8em;
+}
+
+.yellow {
+    color: #D69B33;
+}
+
+
+.err_back
+{
+    border:2px solid #FFF;
+    background-color: #FFF0C4;
+}
+
+.disabled
+{
+	background-color:#DDDDDD;
+}
+
+
+
+#container,
+#footer_content
+{
+/*	width: 970px; */
+	width: 1000px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+input[type=text],select {
+	margin-right:4px;
+}
+
+input[type="text"],
+select
+{
+	height:20px;
+}
+textarea {
+    font-size: 13px;
+}
+
+input.normal {
+	width:350px;
+}
+
+input.size_unit {
+	width:50px;
+}
+
+input.size_goods {
+	width:270px;
+}
+
+input.size_cnt {
+	width:80px;
+}
+
+input.size_tel {
+	width:50px;
+}
+
+input.size_name {
+	width:150px;
+}
+
+input.size_date {
+	width:75px;
+}
+
+input.money {
+    text-align: right;
+    padding-right:2px;
+}
+
+input.size_money {
+	width:80px;
+}
+
+input.size_money_S {
+	width:65px;
+}
+
+input[type="radio"] {
+	margin-left:5px;
+	margin-right:2px;
+}
+
+input.search_btn {
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+}
+
+input.size_L {
+	width:165px;
+	height:40px;
+}
+
+input.size_M {
+	height:35px;
+	width:95px;
+}
+
+input.list_btn {
+    height: 35px;
+    width: 40px;
+}
+
+
+textarea.memo {
+	width:400px;
+	height:100px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+td.data_right
+{
+    text-align: right;
+    padding-right: 4px;
+}
+
+/* Wrapper */
+#wrapper {
+	
+}
+
+/* Container */
+#container
+{
+	margin: 0 auto;
+	clear: both;
+}
+.required {
+    color: #FF0033;
+    margin-left: 7px;
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+div.caption_msg {
+    border-left: 7px solid #22408F;
+    color: #2F2E33;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+}
+
+
+
